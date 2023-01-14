@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightpink;
+}
+.btn,
+.btn-selected {
+  background-color: lightblue;
+  color: black;
+  border-radius: 5px;
+  border: 3px solid lightblue;
+  box-shadow: 1px 1px 1px 1px gray;
+  cursor: pointer;
+  margin: 5px;
+}
+h2 {
+  /* text-align: center; */
+  font-size: 30px;
+  margin-bottom: 3px;
+  color: black;
+  font-family: serif;
+  font-weight: bolder;
+}
+/* .underline {
+  height: 5px;
+  width: 40px;
+  background-color: gray;
+   margin-left: 49%; 
+} */
+u {
+  color: blue;
+}
+.btn-container {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-selected {
+  background-color: yellow;
+  border: 3px solid yellow;
+}
+.sumbit-btn-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.submit-btn,
+.question-submit-btn {
+  color: #d4dfed;
+  background-color: #b67b7f;
+  border: 3px solid #b67b7f;
+  box-shadow: 1px 1px 1px 1px gray;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.select-category-msg {
+  color: red;
+  margin: auto;
+  padding: 5px;
+  font-size: 17px;
+}
+.submit-btn:hover {
+  color: #0cdfed;
+  background-color: #ffffff;
+  border: 3px solid #d4dfed;
+}
+.question-submit-btn {
+  margin-bottom: 20px;
+}
+.question-submit-btn:hover {
+  color: #0cdfed;
+  background-color: #ffffff;
+  border: 3px solid #d4dfed;
+}
+.total-score {
+  font-size: 22px;
+  color: black;
+  font-weight: bolder;
+  font-family: cursive;
+}
+.link {
+  text-decoration: none;
+  border: 3px solid black;
+  padding: 3px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.question-article {
+  background-color: #485d6b;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
